@@ -1,12 +1,7 @@
 try:
-    num1 = int(input('->'))
-    num2 = int(input('->'))
-    list = []
-    for i in range(num1,num2):
-        for j in range(num1,num2):
-            if i % i == 0 and i % j != 0:
-               list.append(i)
-
-    print(f'{list}')
+   for i in range(1, 10):
+       for j in range(1, 10):
+           print(f'{i} * {j} =', i * j, end="\t")
+       print("\n")
 except Exception as ex:
-    print(f'Error: {ex}'
+    print(f'Error: {ex}')

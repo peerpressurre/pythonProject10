@@ -4,4 +4,4 @@ try:
            print(f'{i} * {j} =', i * j, end="\t")
        print("\n")
 except Exception as ex:
-    print(f'Error: {ex}')
+    print(f'Error: {ex}'

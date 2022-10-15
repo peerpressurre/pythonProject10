@@ -9,4 +9,4 @@ try:
 
     print(f'{list}')
 except Exception as ex:
-    print(f'Error: {ex}'
+    print(f'Error: {ex}')
